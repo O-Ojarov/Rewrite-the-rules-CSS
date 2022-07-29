@@ -1,0 +1,23 @@
+@import url(style1.css);
+@font-face {
+    font-family: "Uchen";
+    src: url("Uchen-Regular.ttf") format("truetype");
+}
+html {
+    font-family: "Uchin";
+    font-size: 18px;
+}
+
+
+body {
+    background-color:  var(--dark_blue);
+}
+
+.ball {
+    width: 100px;
+    height: 100px;
+    background:linear-gradient(var(--heavy_orange), var(--yellow));
+    border-radius: 50px;
+    margin: var(--spacing);
+}
+
